@@ -1,198 +1,347 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
     <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="<p>Empresa de tecnologia focada em desenvolvimento de sites e software e consultoria em TI</p>"
+    />
+    <meta
+      name="keywords"
+      content="Área de TI, Técnologia da Informação, Tech, tecnologia, Criação de Site,
+                                   Criação de sistemas, Criação de App, Criação de aplicativos, Desenvolvimento, 
+                                   Desenvolvimento de software, APP, Desenvolvimento de aplicativos, Developer, DEVOPS, 
+                                   SOLID, SCRUM, KABAN, desenvolvimento de sites, criação de sites, designer gráfico,
+                                   desenvolvimento web, criação de logotipos, criação de logomarca, Representante de Software,
+                                   desenvolvimento de software,"
+    />
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
     <title>Lion Tech</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="fontawesome/css/all.min.css" type="text/css" /> 
-    <link rel="stylesheet" href="css/slick.css" type="text/css" />   
-    <link rel="stylesheet" href="css/tooplate-simply-amazed.css" type="text/css" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
-</head>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/tooplate-simply-amazed.css"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <div id="outer">
-        <header class="header order-last" id="tm-header">
-            <nav class="navbar">
-                <img src="img/ltLogo.png" width="150" style="align-self: center;margin: auto;display: block;"/>
-                <div class="collapse navbar-collapse single-page-nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section-1">
-                                <span class="icn">                                  
-                                </span> Index</a>
-                        </li>
-                        <li class="nav-item">                            
-                            <a class="nav-link" href="#section-2">
-                                <span class="icn">
-                                </span> Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section-3">
-                                <span class="icn">                                    
-                                </span> Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section-4">
-                                <span class="icn">
-                                </span> Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section-5">
-                                <span class="icn">
-                                </span> Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        <button class="navbar-button collapsed" type="button">
-            <span class="menu_icon">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </span>
-        </button>
-        
-        <main id="content-box" class="order-first">
-            <div class="banner-section section parallax-window" data-parallax="scroll" data-image-src="img/section-1-bg.jpg" id="section-1">
-                <div class="container">
-                    <div class="item">
-                        <div class="bg-blue-transparent logo-fa" style="align-self: center;margin: auto;display: block;">
-                            <img src="img/ltQuemSomos.png" width="250" />
-                        </div><br>
-                        <div class="bg-blue-transparent simple" style="align-self: center;margin: auto;display: block;">
-                            <p><b>Nós materializamos suas idéias em trabalho digital!</b></p>
-                        </div>
-                    </div>
-                </div>
+      <header class="header order-last" id="tm-header">
+        <nav class="navbar">
+          <!-- <img src="img/ltLogo.png" width="50" style="align-self: center;margin: auto;display: block;"/> -->
+          <div class="collapse navbar-collapse single-page-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#index">
+                  <span class="icn"> </span> Index</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quemSomos">
+                  <span class="icn"> </span> Quem Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">
+                  <span class="icn"> </span> Serviços</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clientes">
+                  <span class="icn"> </span> Clientes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">
+                  <span class="icn"> </span> Contato</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <button class="navbar-button collapsed" type="button">
+        <span class="menu_icon">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </span>
+      </button>
+
+      <main id="content-box" class="order-first">
+        <div
+          class="banner-section section parallax-window"
+          data-parallax="scroll"
+          data-image-src="img/section-1-bg.jpg"
+          id="index"
+        >
+          <div class="container">
+            <div class="item">
+              <div
+                class="bg-blue-transparent logo-fa"
+                style="align-self: center; margin: auto; display: block"
+              >
+                <img src="img/ltQuemSomos.png" width="250" />
+              </div>
+              <br />
+              <div
+                class="bg-blue-transparent simple"
+                style="align-self: center; margin: auto; display: block"
+              >
+                <p>
+                  <b>Nós materializamos suas idéias em trabalho digital!</b>
+                </p>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <section class="contact-section section" style="background-color: gainsboro;" data-parallax="scroll" data-image-src="img/section-3-bg.jpg" id="section-2">
-                <div class="container">
-                    <div class="title text-right">
-                        <h2>Quem Somos</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/ltQuemSomos.png" width="350" style="align-self: center;margin: auto;display: block;"/>
-                        </div>
-                        
-                        <div class="col-md-8" style="color: black;">
-                            <p>
-                                A Lion Tech Consultoria e Desenvolvimento nasceu com a vivencia em suporte a usuários por diversos anos, onde percebemos 
-                                as necessidades das pessoas leigas em dialogar e passar suas necessidades para as pessoas que estariam executando os serviços. 
-                            </p>
-                            <p>
-                                Com o passar do anos reunimos uma equipe multidisciplinar e especializadas em áreas diversas para que juntos possamos atender de 
-                                forma unica nossos clientes, nossas equipes trabalham utilizando as metodologias ágeis para que nossas entregas sejam de valor para 
-                                cada um dos nossos clientes.
-                            </p>
-                            <p>
-                                Entre em contato conosco que teremos o imenso prazer de te atender e estudar suas necessidades para lhe poporcionar um serviço de qualidade.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        
-            <section class="work-section section" id="section-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-md-4">
-                            <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
-                                <h3>.01 Consultoria</h3>
-                                <p>Analisamos as necessidades de cada cliente e oferecemos os melhores produtos e serviços para supri-las.</p>
-                            </div>                        
-                        </div>
-                        <div class="item col-md-4 one">
-                            <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fab fa-2x fa-phoenix-framework"></i></div>
-                                <h3>.02 Identidade Visual</h3>
-                                <p>Nosso time designer irá trabalhar para criar uma identidade visual moderna e adequada para a sua empresa.</p>
-                            </div>
-                        </div>
-                        <div class="item col-md-4 two">
-                            <div class="tm-work-item-inner">
-                                <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
-                                <h3>.03 Desenvolvimento de Software e Sites</h3>
-                                <p>Nosso time de desenvolvedores estão em constante atualização para oferecer as melhores práticas de desenvolvimento de sistemas e sites para te atender.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="title">
-                        <h2>Serviços</h2>
-                    </div>
-                </div>
-            </section>
+        <section
+          class="contact-section section"
+          style="background-color: gainsboro"
+          data-parallax="scroll"
+          data-image-src="img/section-3-bg.jpg"
+          id="quemSomos"
+        >
+          <div class="container">
+            <div class="title text-right">
+              <h2>Quem Somos</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="img/ltQuemSomos.png"
+                  width="350"
+                  style="align-self: center; margin: auto; display: block"
+                />
+              </div>
 
-            <section class="contact-section section" style="background-color: gainsboro;" id="section-4">
-                <div class="container">
-                    <div class="title text-right">
-                        <h2>Nossos Clientes</h2>
-                    </div>
-                    <div class="row">
-                    </div>                
-                </div>
-            </section>
+              <div class="col-md-8" style="color: black">
+                <p>
+                  A Lion Tech Consultoria e Desenvolvimento nasceu com a
+                  vivencia em suporte a usuários por diversos anos, onde
+                  percebemos as necessidades das pessoas leigas em dialogar e
+                  passar suas necessidades para as pessoas que estariam
+                  executando os serviços.
+                </p>
+                <p>
+                  Com o passar do anos reunimos uma equipe multidisciplinar e
+                  especializadas em áreas diversas para que juntos possamos
+                  atender de forma unica nossos clientes, nossas equipes
+                  trabalham utilizando as metodologias ágeis para que nossas
+                  entregas sejam de valor para cada um dos nossos clientes.
+                </p>
+                <p>
+                  Entre em contato conosco que teremos o imenso prazer de te
+                  atender e estudar suas necessidades para lhe poporcionar um
+                  serviço de qualidade.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <section class="contact-section section" id="section-5">
-                <div class="container">
-                    <div class="title">
-                        <h3>Nossos Contatos</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6 mb-4 contact-form">
-                            <div class="form tm-contact-item-inner">
-                                <form action="#" method="POST">
-                                    <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Nome">
-                                    </div>
-                                    <div class="form-group">
-                                        <input name="email" type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" class="textarea form-control" placeholder="Mensagem"></textarea>
-                                    </div>
-                                    <div class="form-group text-right">
-                                        <input type="submit" class="btn btn-primary" value="Enviar">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4 contact-details">
-                            <div class="tm-contact-item-inner-2">
-                                <p></p>
-                                <ul class="font-weight-light">
-                                    <li>
-                                        <span class="icn"><i class="fas fa-mobile-alt"></i></span>
-                                        <span class="lbl">Tel:</span> <a href="#">21 989112831</a>
-                                    </li>
-                                    <li>
-                                        <span class="icn"><i class="fas fa-at"></i></span>
-                                        <span class="lbl">Email:</span> <a href="#">contato@liontech.eti.br</a>
-                                    </li>
-                                    <li>
-                                        <span class="icn"><i class="fas fa-globe-asia"></i></span>
-                                        <span class="lbl">URL:</span> <a href="#">www.liontech.eti.br</a>
-                                    </li>
-                                </ul>
-                            </div>                        
-                        </div>
-                    </div>                
+        <section class="work-section section" id="servicos">
+          <div class="container">
+            <div class="row">
+              <div class="item col-md-4">
+                <div class="tm-work-item-inner">
+                  <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
+                  <h3>.01 Consultoria</h3>
+                  <p>
+                    Analisamos as necessidades de cada cliente e oferecemos os
+                    melhores produtos e serviços para supri-las.
+                  </p>
                 </div>
-                <footer class="footer container container-2">
-                    <div class="row"> 
-                        <p class="col-sm-7" style="align-self: center;margin: auto;display: block;">&copy; Lion Tech Consultoria e Desenvolvimento.</p>
+              </div>
+              <div class="item col-md-4 one">
+                <div class="tm-work-item-inner">
+                  <div class="icn">
+                    <i class="fab fa-2x fa-phoenix-framework"></i>
+                  </div>
+                  <h3>.02 Identidade Visual</h3>
+                  <p>
+                    Nosso time designer irá trabalhar para criar uma identidade
+                    visual moderna e adequada para a sua empresa.
+                  </p>
+                </div>
+              </div>
+              <div class="item col-md-4 two">
+                <div class="tm-work-item-inner">
+                  <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
+                  <h3>.03 Desenvolvimento de Software e Sites</h3>
+                  <p>
+                    Nosso time de desenvolvedores estão em constante atualização
+                    para oferecer as melhores práticas de desenvolvimento de
+                    sistemas e sites para te atender.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Serviços</h2>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="contact-section section"
+          style="background-color: gainsboro"
+          id="clientes"
+        >
+          <div class="container">
+            <div class="title text-right">
+              <h2>Nossos Clientes</h2>
+            </div>
+            <div class="row">
+              <div class="item col-md-4">
+                <div class="tm-work-item-inner">
+                  <div class="icn">
+                    <img
+                      src="img/alphabeta.png"
+                      width="150"
+                      style="align-self: center; margin: auto; display: block"
+                    />
+                  </div>
+                  <h3 style="text-align: center; margin: auto; display: block">
+                    Alpha Beta Produções
+                  </h3>
+                  <p>
+                    Desenvolvimento de identidade visual, criação do site e
+                    consultoria em TI.
+                  </p>
+                </div>
+              </div>
+              <div class="item col-md-4 one">
+                <div class="tm-work-item-inner">
+                  <div class="icn">
+                    <img
+                      src="img/cave.png"
+                      width="150"
+                      style="align-self: center; margin: auto; display: block"
+                    />
+                  </div>
+                  <h3 style="text-align: center; margin: auto; display: block">
+                    CAVE Pedal Boards
+                  </h3>
+                  <p>Criação do site.</p>
+                </div>
+              </div>
+              <div class="item col-md-4 two">
+                <div class="tm-work-item-inner">
+                  <div class="icn">
+                    <img
+                      src="img/ti.png"
+                      width="150"
+                      style="align-self: center; margin: auto; display: block"
+                    />
+                  </div>
+                  <h3 style="text-align: center; margin: auto; display: block">
+                    TI Seg. Eletrônica
+                  </h3>
+                  <p>Criação do site.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section section" id="contato">
+          <div class="container">
+            <div class="title">
+              <h3>Nossos Contatos</h3>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 col-md-6 mb-4 contact-form">
+                <div class="form tm-contact-item-inner">
+                  <form
+                    action="mailto:contato@liontech.eti.br"
+                    method="post"
+                    name="form"
+                    id="contatoForm" 
+                    target="_blank"
+                  >
+                    <div class="form-group">
+                      <input
+                        name="nome"
+                        type="text"
+                        class="form-control"
+                        placeholder="Nome"
+                      />
                     </div>
-                </footer>
-            </section>
-        </main>
+                    <div class="form-group">
+                      <input
+                        name="email"
+                        type="text"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        name="mensagem"
+                        class="textarea form-control"
+                        placeholder="Mensagem"
+                      ></textarea>
+                    </div>
+                    <div class="form-group text-right">
+                      <button
+                        type="submit"
+                        class="btn btn-primary"
+                        name="submit"
+                        value="Enviar"
+                        id="enviar"
+                      ></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 contact-details">
+                <div class="tm-contact-item-inner-2">
+                  <p></p>
+                  <ul class="font-weight-light">
+                    <li>
+                      <span class="icn"><i class="fas fa-mobile-alt"></i></span>
+                      <span class="lbl">Tel:</span> <a href="#">21 989112831</a>
+                    </li>
+                    <li>
+                      <span class="icn"><i class="fas fa-at"></i></span>
+                      <span class="lbl">Email:</span>
+                      <a href="#">contato@liontech.eti.br</a>
+                    </li>
+                    <li>
+                      <span class="icn"><i class="fas fa-globe-asia"></i></span>
+                      <span class="lbl">URL:</span>
+                      <a href="#">www.liontech.eti.br</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer container container-2">
+            <div class="row">
+              <p
+                class="col-sm-7"
+                style="align-self: center; margin: auto; display: block"
+              >
+                &copy; Lion Tech Consultoria e Desenvolvimento.
+              </p>
+            </div>
+          </footer>
+        </section>
+      </main>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -200,5 +349,20 @@
     <script src="js/slick.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/templatemo-script.js"></script>
-</body>
+    <script>
+      $(function () {
+        document
+          .getElementById("contatoForm")
+          .addEventListener("submit", function () {
+            var nome = this.querySelector("input[name=nome]"),
+              nome = nome.value;
+            var email = this.querySelector("input[name=email]"),
+              email = email.value;
+            var texto = this.querySelector("input[name=mensagem]"),
+              texto = texto.value;
+            this.querySelector("input[name=mensagem]").setAttribute("value", texto);
+          });
+      });
+    </script>
+  </body>
 </html>
